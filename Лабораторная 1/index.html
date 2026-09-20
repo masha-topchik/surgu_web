@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/CSS" href = "style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Сайт-визитка</title>
+        <script src="jquery-3.5.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+
+    <body>
+      
+        <header>
+          <div class="wrapper">
+              <div class="header_wrapper">
+                <div class="header_logo">
+                  <h1 id="headerLogo">MS</h1>           
+                </div>
+
+                <div class="menu_image" id="menuTrigger">
+                  <img src="icons8-menu-50.png" alt="icons8-menu-50">
+
+                </div>
+      
+                <div class="header_menu" id="headerMenu">
+                  <a href="#intro" class="menu_item">ГЛАВНАЯ</a>
+                  <a href="#about" class="menu_item">ОБ АВТОРЕ</a>
+                  <a href="#projects" class="menu_item">РАБОТЫ</a>
+                  <a href="#process" class="menu_item">ПРОЦЕССЫ</a>
+                  <a href="#send" class="menu_item">КОНТАКТЫ</a>
+
+                </div>
+              </div>
+          </div>
+
+        </header>
+
+        <main>
+
+          <section class="intro" id="intro">
+              <div class="intro_left">
+
+                <img  src="intro_logo.svg" alt="INTRO" class="intro_img">
+
+              </div>
+
+              <div class="intro_right">
+                <h1 id="myTitle" class="intro_title">
+                Резюме-Ужегова Мария
+                </h1>
+                <p class="intro_text">
+                  Если вы хотите воплотить свой проект в реальность - вам сюда!
+                  Мы — профессиональная веб‑студия, специализирующаяся на разработке сайтов любой сложности:
+                  от лаконичных визиток до многофункциональных интернет‑магазинов и корпоративных порталов.
+                </p>
+                <button id="myButton" class="intro_button">СВЯЗЬ С НАМИМ</button>
+                <div id="myModal" class="modal">
+                  <div id="myContent" class="modal_content">
+                    <div id="myClose" class="close">&times;</div>
+
+                <div class="send_wrapper">
+                  <h1 class="modal_title">
+                    Желаете веб-сайт?
+                  </h1>
+                  <form>
+                      <div class="send_form">
+                        <div>
+                            <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                            <input type="email" class="form2 formstyle" placeholder="Ваше e-mail">
+                        </div>
+                        <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                        <button class="modal_button">ОТПРАВИТЬ</button>
+                      </div>
+                  </form>
+                </div>
+
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!-- <button id="test" class="test">Нажать</button> -->
+          
+          <section class="about" id="about">
+            <div class="wrapper">
+              <div class="about_wrapper">
+                <div class="about_block">
+                  <h2 class="about_title">ОБ АВТОРЕ</h2>
+                  <p class="about_text">
+                    Я - Мария Ужегова. Являюсь основателем компании "MS" по созданию веб-сайтов. Наша команда
+                   работает на протяжении 5 лет. За это время мы воплотили в реальность более 500 сайтов.
+                   Наша команда объединяет опытных разработчиков, дизайнеров, UX/UI‑специалистов и маркетологов,
+                   которые превращают идеи в работающие цифровые продукты.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="projects" id="projects">
+            <div class="wrapper">
+              <div class="projects_wrapper">
+                <div class="projects_block">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                  <img src="icons8-it-48 (1).png" alt="icons8-проекты-64" class="projects_img">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="skills">
+            <div class="wrapper">
+              <div class="skills_wrapper">
+                <div class="skills_left">
+                  <h3 class="skills_title">Наши функции</h3>
+                  <h4 class="skill skill_1">1. Разработка сайтов под "ключ".</h4>
+                  <h4 class="skill skill_2">2. Модернизация существующих сайтов.</h4>
+                  <h4 class="skill skill_3">3. Адаптивная вёрстка(поддержка всех устройств).</h4>
+
+                </div>
+                <div class="skills_right">
+                  <img src="IMG_4791.JPG" alt="MY_PHOTO" class="skills_img">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="process" id="process">
+              <div class="wrapper">
+                  <div class="process_wrapper">
+                    <div class="process_block">
+                        <h1 class="process_title">
+                            ПРОЦЕСС РАБОТЫ
+                        </h1>
+                        <p class="process_text">
+                          Ниже вы можете увидеть работу нашей компании, а именно
+                          то, как разработчики создают сайты и улучшают их.
+                        </p>
+                    </div>
+
+                    <video src="verstka.mp4" class="process_video" controls="controls"></video>
+                    <video src="verstka_sz.mp4" class="process_video" controls="controls"></video>
+                  </div>
+              </div>
+          </section>
+
+          <section>
+              <div class="gallery">
+                  <div class="gallery_str">
+                    <a href="gallery1.png" class="lightzoom">
+                      <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                      <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                      <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                      <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+
+                  </div>
+                  <div class="gallery_str">
+                    <a href="gallery2.png" class="lightzoom">
+                      <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                      <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                      <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                      <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+
+                  </div>
+              </div>
+
+          </section>
+
+          <section class="send" id="send">
+              <div class="wrapper">
+                <div class="send_wrapper">
+                  <h1 class="send_title">
+                    Хотите заказать проект?
+                  </h1>
+                  <p class="send_text">
+                    Мы верим, что качественный веб‑сайт — это не просто витрина,
+                     а мощный инструмент роста. Наша цель — помогать бизнесу достигать результатов через продуманные цифровые продукты
+                  </p>
+                  <form>
+                      <div class="send_form">
+                        <div>
+                            <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                            <input type="email" class="form2 formstyle" placeholder="Ваше e-mail">
+                        </div>
+                        <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                        <button class="send_button">ОТПРАВИТЬ</button>
+                      </div>
+                  </form>
+                </div>
+              </div>
+          </section>
+        </main>
+
+        <footer>
+          <div class="wrapper">
+            <div class="footer_wrapper">
+              <div class="left_footer">
+                <h3 class="footer_title">MS-Product</h3>
+                <p class="footer_text">(C) 2026. Все права защищены.</p>
+              </div>
+              <div class="right_footer">
+                <img src="vk-logo.png" alt="youtube-logo" class="footer_img">
+                <img src="youtube-logo.ico" alt="youtube-logo" class="footer_img">
+                <img src="icons8-telegram-app-48.png" alt="youtube-logo" class="footer_img">
+
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <link rel="stylesheet" href="lightzoom/style.css">
+        <script src="lightzoom/lightzoom.js"></script>
+
+        <script>jQuery('.lightzoom').lightzoom({speed: 400, viewTitle:true, isOverlayClickClosing: true});</script>
+        <script src="myscript.js"></script>
+      </body>
+
+</html>
