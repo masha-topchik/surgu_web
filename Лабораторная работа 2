@@ -40,9 +40,6 @@ function Grade() {
     console.log("Средний балл:", averageGrade.toFixed(4));
 }
 
-Grade();
-
-
 ---массив
 function massiveNumbers() {
   const numbers = [4, 8, 15, 16, 23, 42];
@@ -58,27 +55,22 @@ function massiveNumbers() {
       result.push(numbers[i]);
     }
   }
-  console.log(sum, max, result);
-  let sum2 = numbers.reduce((a, b) => a + b, 0);
-  let max2 = Math.max(...numbers);
-  let result2 = numbers.filter(x => x > 10);
-  console.log(sum2, max2, result2);
-}
-
-massiveNumbers();
+console.log("Сумма", sum);
+console.log("Максимальное число в массиве", max);
+console.log("Числа больше 10", result);
 
 
 ---номера
 function Random() {
-        let Random = Math.floor(Math.random() * 10) + 1;
-        let userNumber = Number(prompt("Угадайте число от 1 до 10:"));
-        if (userNumber == Random) {
-            console.log("Вы угадали, загаданное число было", Random);
-        }
-        else {
-            console.log("Вы не угадали");
-            console.log("Загаданное число:", Random);
-        }
+ const hiddenNumber = Math.floor(Math.random()*10)+1);
+ const userName = Number(promt("Угадай число от 1 до 10"));
+    if (userName == hiddenNumber) {
+        console.log("Угадал")
+    } else if (userName < hiddenNumber) {
+        console.log("Загаданное число больше")
+    } else {
+        console.log ("Загаданное число меньше")
     }
-
+    console.log("Загаданное число", hiddenNumber);
+    }
     Random();
